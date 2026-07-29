@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Allow gitignore itself
+!.gitignore
+
+# Allow code directory and its contents
+!code/
+!code/**
+
+# Specifically ignore these inside code/
+**/__pycache__/
+**/.claude/
+*.pyc
